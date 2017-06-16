@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-v21/lb_action_bg.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/drawable-v21/lb_action_bg.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-v21/lb_card_foreground.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/drawable-v21/lb_card_foreground.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-v21/lb_control_button_secondary.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/drawable-v21/lb_control_button_secondary.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-v21/lb_control_button_primary.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/drawable-v21/lb_control_button_primary.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

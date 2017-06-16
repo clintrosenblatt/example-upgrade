@@ -1,0 +1,7 @@
+#Wed Jun 14 18:04:39 MDT 2017
+base.0=/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_39b65d761ea5064de5d07ef46fcb1ed5aa7361b1
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_90bdd433ca9ce6f7ec34925f5df4b8f2ed4b09e0/classes.dex
+base.1=/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_90bdd433ca9ce6f7ec34925f5df4b8f2ed4b09e0
+file.0=/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_39b65d761ea5064de5d07ef46fcb1ed5aa7361b1/classes.dex

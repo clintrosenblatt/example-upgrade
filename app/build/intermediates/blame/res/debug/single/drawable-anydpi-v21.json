@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_previous.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-anydpi-v21/exo_controls_previous.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_pause.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-anydpi-v21/exo_controls_pause.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_play.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-anydpi-v21/exo_controls_play.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_rewind.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-anydpi-v21/exo_controls_rewind.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_edit_mode_logo.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-anydpi-v21/exo_edit_mode_logo.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_fastforward.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-anydpi-v21/exo_controls_fastforward.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_next.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-anydpi-v21/exo_controls_next.xml"
+    }
+]

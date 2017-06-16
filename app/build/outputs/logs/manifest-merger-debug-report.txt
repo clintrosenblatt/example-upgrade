@@ -1,0 +1,199 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:17:1-125:12
+	package
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:18:5-48
+		INJECTED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml
+		INJECTED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml
+		INJECTED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:19:5-63
+	android:versionCode
+		INJECTED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml
+		INJECTED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/156d3b8786806cd9e838fd6ac5bb334154a675f6/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:22:22-64
+uses-permission#com.android.providers.tv.permission.READ_EPG_DATA
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:25:5-89
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:25:22-86
+uses-permission#com.android.providers.tv.permission.WRITE_EPG_DATA
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:28:5-90
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:28:22-87
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:32:5-80
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:32:22-78
+uses-feature#android.hardware.touchscreen
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:34:5-36:36
+	android:required
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:36:9-33
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:35:9-52
+uses-feature#android.software.leanback
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:37:5-39:35
+	android:required
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:39:9-32
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:38:9-49
+uses-feature#android.software.live_tv
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:43:5-45:35
+	android:required
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:45:9-32
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:44:9-48
+application
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:47:5-124:19
+MERGED from [ATV-v2:library:unspecified] /usr/local/google/home/crosenblatt/workspace/ATV-v2/library/build/intermediates/bundles/default/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/156d3b8786806cd9e838fd6ac5bb334154a675f6/output/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/08e614d971cacdbfe8081508cd113c984f33c5b7/output/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:leanback-v17:24.0.0] /usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] /usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /usr/local/google/home/crosenblatt/.android/build-cache/4aaba00bf594eaf249d3b0c4c9bf50d26d942b53/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /usr/local/google/home/crosenblatt/.android/build-cache/3311725d647df87782633d95ec81d4b7f730c710/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /usr/local/google/home/crosenblatt/.android/build-cache/a2268d2233a76f3feabec3bcc77d74546b637c77/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /usr/local/google/home/crosenblatt/.android/build-cache/8d865740113ccfa16ec70d8e62dfc851e903a1ca/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /usr/local/google/home/crosenblatt/.android/build-cache/732207c1233eddb2674e9105e36f65c42bd2a7b8/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:50:9-41
+	android:allowBackup
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:48:9-36
+	android:icon
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:49:9-46
+	android:theme
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:51:9-46
+activity#com.example.android.sampletvinput.MainActivity
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:52:9-57:20
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:52:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LEANBACK_LAUNCHER
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:53:13-56:29
+action#android.intent.action.MAIN
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:54:25-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:55:17-86
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:55:27-83
+activity#com.example.android.sampletvinput.rich.RichTvInputSetupActivity
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:61:9-65:20
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:61:19-64
+intent-filter#android.intent.action.MAIN
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:62:13-64:29
+activity#com.example.android.sampletvinput.rich.RichAppLinkDetailsActivity
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:69:9-75:20
+	android:theme
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:71:13-53
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:70:13-60
+activity#com.example.android.sampletvinput.rich.RichAppLinkSidePanelActivity
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:79:9-85:20
+	android:theme
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:81:13-47
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:80:13-62
+service#com.example.android.sampletvinput.rich.RichTvInputService
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:92:9-105:19
+	android:label
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:94:13-53
+	android:permission
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:95:13-66
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:93:13-52
+intent-filter#android.media.tv.TvInputService
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:97:13-99:29
+action#android.media.tv.TvInputService
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:98:17-74
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:98:25-71
+meta-data#android.media.tv.input
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:102:13-104:62
+	android:resource
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:104:17-59
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:103:17-54
+service#com.example.android.sampletvinput.SampleJobService
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:108:9-111:39
+	android:exported
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:111:13-36
+	android:permission
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:110:13-69
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:109:13-45
+receiver#com.example.android.sampletvinput.rich.RichBootReceiver
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:114:9-118:20
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:114:19-56
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:115:13-117:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:116:17-79
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:116:25-76
+meta-data#com.google.android.gms.version
+ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:121:9-123:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/08e614d971cacdbfe8081508cd113c984f33c5b7/output/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:123:13-66
+	android:name
+		ADDED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml:122:13-58
+uses-sdk
+INJECTED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [ATV-v2:library:unspecified] /usr/local/google/home/crosenblatt/workspace/ATV-v2/library/build/intermediates/bundles/default/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/156d3b8786806cd9e838fd6ac5bb334154a675f6/output/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/08e614d971cacdbfe8081508cd113c984f33c5b7/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:leanback-v17:24.0.0] /usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:24.0.0] /usr/local/google/home/crosenblatt/.android/build-cache/f62fe2b31bb39a49c73726aa99be9d8cce9d0aa1/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.0.0] /usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /usr/local/google/home/crosenblatt/.android/build-cache/4aaba00bf594eaf249d3b0c4c9bf50d26d942b53/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /usr/local/google/home/crosenblatt/.android/build-cache/3311725d647df87782633d95ec81d4b7f730c710/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /usr/local/google/home/crosenblatt/.android/build-cache/a2268d2233a76f3feabec3bcc77d74546b637c77/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.exoplayer:exoplayer:r2.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/fe8f37395531f57f748c9d949ac8c634183f25ad/output/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/d611470b01673864a8b5e8a01bc2ba04f62765fd/output/AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:support-core-utils:25.3.1] /usr/local/google/home/crosenblatt/.android/build-cache/8d865740113ccfa16ec70d8e62dfc851e903a1ca/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /usr/local/google/home/crosenblatt/.android/build-cache/732207c1233eddb2674e9105e36f65c42bd2a7b8/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/3b9efd977a076d114c4d0d02fc23a2c66ebc308f/output/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/35ea5dca494204ba5ef160d3b11a59694bce0e80/output/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/4d3d3cdb870baf55b63420434425459c3cf2bf3a/output/AndroidManifest.xml:21:5-23:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] /usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml
+		INJECTED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml
+		INJECTED from /usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/156d3b8786806cd9e838fd6ac5bb334154a675f6/output/AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/156d3b8786806cd9e838fd6ac5bb334154a675f6/output/AndroidManifest.xml:21:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/156d3b8786806cd9e838fd6ac5bb334154a675f6/output/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/156d3b8786806cd9e838fd6ac5bb334154a675f6/output/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/156d3b8786806cd9e838fd6ac5bb334154a675f6/output/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/156d3b8786806cd9e838fd6ac5bb334154a675f6/output/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/156d3b8786806cd9e838fd6ac5bb334154a675f6/output/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/156d3b8786806cd9e838fd6ac5bb334154a675f6/output/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /usr/local/google/home/crosenblatt/.android/build-cache/156d3b8786806cd9e838fd6ac5bb334154a675f6/output/AndroidManifest.xml:30:19-91
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-core-utils:25.3.1] /usr/local/google/home/crosenblatt/.android/build-cache/8d865740113ccfa16ec70d8e62dfc851e903a1ca/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /usr/local/google/home/crosenblatt/.android/build-cache/732207c1233eddb2674e9105e36f65c42bd2a7b8/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-core-utils:25.3.1] /usr/local/google/home/crosenblatt/.android/build-cache/8d865740113ccfa16ec70d8e62dfc851e903a1ca/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-core-utils:25.3.1] /usr/local/google/home/crosenblatt/.android/build-cache/8d865740113ccfa16ec70d8e62dfc851e903a1ca/output/AndroidManifest.xml:26:9-47

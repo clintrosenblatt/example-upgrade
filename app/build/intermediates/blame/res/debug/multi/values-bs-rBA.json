@@ -1,0 +1,1223 @@
+[
+    {
+        "outputFile": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs-rBA/values-bs-rBA.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 118,
+                    "endOffset": 219
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 118,
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 224,
+                    "endColumn": 107,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 107,
+                        "endOffset": 277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 332,
+                    "endColumn": 122,
+                    "endOffset": 450
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 122,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 455,
+                    "endColumn": 108,
+                    "endOffset": 559
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 108,
+                        "endOffset": 509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 564,
+                    "endColumn": 106,
+                    "endOffset": 666
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 514,
+                        "endColumn": 106,
+                        "endOffset": 616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 671,
+                    "endColumn": 87,
+                    "endOffset": 754
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 621,
+                        "endColumn": 87,
+                        "endOffset": 704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 759,
+                    "endColumn": 100,
+                    "endOffset": 855
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endColumn": 100,
+                        "endOffset": 805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 860,
+                    "endColumn": 121,
+                    "endOffset": 977
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 810,
+                        "endColumn": 121,
+                        "endOffset": 927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 982,
+                    "endColumn": 81,
+                    "endOffset": 1059
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 932,
+                        "endColumn": 81,
+                        "endOffset": 1009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1064,
+                    "endColumn": 80,
+                    "endOffset": 1140
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1014,
+                        "endColumn": 80,
+                        "endOffset": 1090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1145,
+                    "endColumn": 85,
+                    "endOffset": 1226
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1095,
+                        "endColumn": 85,
+                        "endOffset": 1176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1231,
+                    "endColumn": 102,
+                    "endOffset": 1329
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1181,
+                        "endColumn": 102,
+                        "endOffset": 1279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1334,
+                    "endColumn": 104,
+                    "endOffset": 1434
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1284,
+                        "endColumn": 104,
+                        "endOffset": 1384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1439,
+                    "endColumn": 97,
+                    "endOffset": 1532
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1389,
+                        "endColumn": 97,
+                        "endOffset": 1482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1537,
+                    "endColumn": 104,
+                    "endOffset": 1637
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1487,
+                        "endColumn": 104,
+                        "endOffset": 1587
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1642,
+                    "endColumn": 110,
+                    "endOffset": 1748
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1592,
+                        "endColumn": 110,
+                        "endOffset": 1698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1753,
+                    "endColumn": 104,
+                    "endOffset": 1853
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1703,
+                        "endColumn": 104,
+                        "endOffset": 1803
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1858,
+                    "endColumn": 119,
+                    "endOffset": 1973
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1808,
+                        "endColumn": 119,
+                        "endOffset": 1923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1978,
+                    "endColumn": 96,
+                    "endOffset": 2070
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1928,
+                        "endColumn": 96,
+                        "endOffset": 2020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2075,
+                    "endColumn": 73,
+                    "endOffset": 2144
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 73,
+                        "endOffset": 124
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2149,
+                    "endColumn": 75,
+                    "endOffset": 2220
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 129,
+                        "endColumn": 75,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2225,
+                    "endColumn": 69,
+                    "endOffset": 2290
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 205,
+                        "endColumn": 69,
+                        "endOffset": 270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2295,
+                    "endColumn": 72,
+                    "endOffset": 2363
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 275,
+                        "endColumn": 72,
+                        "endOffset": 343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2368,
+                    "endColumn": 80,
+                    "endOffset": 2444
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 348,
+                        "endColumn": 80,
+                        "endOffset": 424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2449,
+                    "endColumn": 70,
+                    "endOffset": 2515
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 429,
+                        "endColumn": 70,
+                        "endOffset": 495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2520,
+                    "endColumn": 68,
+                    "endOffset": 2584
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 500,
+                        "endColumn": 68,
+                        "endOffset": 564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2589,
+                    "endColumn": 106,
+                    "endOffset": 2691
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 106,
+                        "endOffset": 207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2696,
+                    "endColumn": 100,
+                    "endOffset": 2792
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 100,
+                        "endOffset": 308
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2797,
+                    "endColumn": 77,
+                    "endOffset": 2870
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 313,
+                        "endColumn": 77,
+                        "endOffset": 386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2875,
+                    "endColumn": 98,
+                    "endOffset": 2969
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 391,
+                        "endColumn": 98,
+                        "endOffset": 485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2974,
+                    "endColumn": 95,
+                    "endOffset": 3065
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 490,
+                        "endColumn": 95,
+                        "endOffset": 581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3070,
+                    "endColumn": 114,
+                    "endOffset": 3180
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 586,
+                        "endColumn": 114,
+                        "endOffset": 696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3185,
+                    "endColumn": 99,
+                    "endOffset": 3280
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 701,
+                        "endColumn": 99,
+                        "endOffset": 796
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3285,
+                    "endColumn": 93,
+                    "endOffset": 3374
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 801,
+                        "endColumn": 93,
+                        "endOffset": 890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3379,
+                    "endColumn": 121,
+                    "endOffset": 3496
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 895,
+                        "endColumn": 121,
+                        "endOffset": 1012
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3501,
+                    "endColumn": 119,
+                    "endOffset": 3616
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1017,
+                        "endColumn": 119,
+                        "endOffset": 1132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3621,
+                    "endColumn": 98,
+                    "endOffset": 3715
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1137,
+                        "endColumn": 98,
+                        "endOffset": 1231
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3720,
+                    "endColumn": 115,
+                    "endOffset": 3831
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1236,
+                        "endColumn": 115,
+                        "endOffset": 1347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3836,
+                    "endColumn": 124,
+                    "endOffset": 3956
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1352,
+                        "endColumn": 124,
+                        "endOffset": 1472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3961,
+                    "endColumn": 121,
+                    "endOffset": 4078
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1477,
+                        "endColumn": 121,
+                        "endOffset": 1594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4083,
+                    "endColumn": 103,
+                    "endOffset": 4182
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1599,
+                        "endColumn": 103,
+                        "endOffset": 1698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4187,
+                    "endColumn": 93,
+                    "endOffset": 4276
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1703,
+                        "endColumn": 93,
+                        "endOffset": 1792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4281,
+                    "endColumn": 128,
+                    "endOffset": 4405
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1797,
+                        "endColumn": 128,
+                        "endOffset": 1921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4410,
+                    "endColumn": 95,
+                    "endOffset": 4501
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1926,
+                        "endColumn": 95,
+                        "endOffset": 2017
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4506,
+                    "endColumn": 100,
+                    "endOffset": 4602
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2022,
+                        "endColumn": 100,
+                        "endOffset": 2118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4607,
+                    "endColumn": 101,
+                    "endOffset": 4704
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2123,
+                        "endColumn": 101,
+                        "endOffset": 2220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4709,
+                    "endColumn": 102,
+                    "endOffset": 4807
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2225,
+                        "endColumn": 102,
+                        "endOffset": 2323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4812,
+                    "endColumn": 94,
+                    "endOffset": 4902
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2328,
+                        "endColumn": 94,
+                        "endOffset": 2418
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 4907,
+                    "endColumn": 111,
+                    "endOffset": 5014
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2423,
+                        "endColumn": 111,
+                        "endOffset": 2530
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 5019,
+                    "endColumn": 125,
+                    "endOffset": 5140
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2535,
+                        "endColumn": 125,
+                        "endOffset": 2656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 5145,
+                    "endColumn": 123,
+                    "endOffset": 5264
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2661,
+                        "endColumn": 123,
+                        "endOffset": 2780
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5269,
+                    "endColumn": 106,
+                    "endOffset": 5371
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2785,
+                        "endColumn": 106,
+                        "endOffset": 2887
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 5376,
+                    "endColumn": 111,
+                    "endOffset": 5483
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2892,
+                        "endColumn": 111,
+                        "endOffset": 2999
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 5488,
+                    "endColumn": 114,
+                    "endOffset": 5598
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 3004,
+                        "endColumn": 114,
+                        "endOffset": 3114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 5603,
+                    "endColumn": 122,
+                    "endOffset": 5721
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 3119,
+                        "endColumn": 122,
+                        "endOffset": 3237
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 5726,
+                    "endColumn": 112,
+                    "endOffset": 5834
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 3242,
+                        "endColumn": 112,
+                        "endOffset": 3350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 5839,
+                    "endColumn": 120,
+                    "endOffset": 5955
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 3355,
+                        "endColumn": 120,
+                        "endOffset": 3471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 5960,
+                    "endColumn": 85,
+                    "endOffset": 6041
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 3476,
+                        "endColumn": 85,
+                        "endOffset": 3557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 6046,
+                    "endColumn": 118,
+                    "endOffset": 6160
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 3562,
+                        "endColumn": 118,
+                        "endOffset": 3676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 6165,
+                    "endColumn": 136,
+                    "endOffset": 6297
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 3681,
+                        "endColumn": 136,
+                        "endOffset": 3813
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 6302,
+                    "endColumn": 169,
+                    "endOffset": 6467
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 3818,
+                        "endColumn": 169,
+                        "endOffset": 3983
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 6472,
+                    "endColumn": 77,
+                    "endOffset": 6545
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 3988,
+                        "endColumn": 77,
+                        "endOffset": 4061
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 6550,
+                    "endColumn": 89,
+                    "endOffset": 6635
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 4066,
+                        "endColumn": 89,
+                        "endOffset": 4151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 6640,
+                    "endColumn": 100,
+                    "endOffset": 6736
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2025,
+                        "endColumn": 100,
+                        "endOffset": 2121
+                    }
+                }
+            }
+        ]
+    }
+]

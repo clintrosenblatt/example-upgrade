@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/anim/side_panel_exit.xml",
+        "source": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/res/anim/side_panel_exit.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/anim/side_panel_enter.xml",
+        "source": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/src/main/res/anim/side_panel_enter.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/4da4abb7b0c575c24662f7781276798bf1256970/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    }
+]

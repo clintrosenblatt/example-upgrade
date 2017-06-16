@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/exo_controls_previous.png",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-ldpi-v4/exo_controls_previous.png"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/exo_controls_pause.png",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-ldpi-v4/exo_controls_pause.png"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/exo_controls_rewind.png",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-ldpi-v4/exo_controls_rewind.png"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/exo_edit_mode_logo.png",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-ldpi-v4/exo_edit_mode_logo.png"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/exo_controls_fastforward.png",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-ldpi-v4/exo_controls_fastforward.png"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/exo_controls_next.png",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-ldpi-v4/exo_controls_next.png"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/exo_controls_play.png",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/220232e74432727da1dc560924b56fbf69a17b9e/output/res/drawable-ldpi-v4/exo_controls_play.png"
+    }
+]

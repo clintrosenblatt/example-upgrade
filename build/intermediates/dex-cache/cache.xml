@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/usr/local/google/home/crosenblatt/workspace/androidtv-sample-inputs/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/usr/local/google/home/crosenblatt/workspace/androidtv-sample-inputs/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_30e6120a2000c7885671fb95909ae3ab8390dc2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/usr/local/google/home/crosenblatt/workspace/androidtv-sample-inputs/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4dca10d57dee7a340664e227484d48133e0f68f2">
+        <dex dex="/usr/local/google/home/crosenblatt/workspace/androidtv-sample-inputs/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_32cf44f2becb3dcecf51cd5290b3da3382c63751/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_39b65d761ea5064de5d07ef46fcb1ed5aa7361b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0679a4720c6ab68dc7080aa8d6d683272e19efa4">
+        <dex dex="/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_90bdd433ca9ce6f7ec34925f5df4b8f2ed4b09e0/classes.dex" />
+    </item>
+
+</items>

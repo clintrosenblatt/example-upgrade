@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/animator-v21/lb_playback_bg_fade_in.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/animator-v21/lb_playback_bg_fade_in.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/animator-v21/lb_playback_description_fade_out.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/animator-v21/lb_playback_description_fade_out.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/res/merged/debug/animator-v21/lb_playback_bg_fade_out.xml",
+        "source": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/animator-v21/lb_playback_bg_fade_out.xml"
+    }
+]

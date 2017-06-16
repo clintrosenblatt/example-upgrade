@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/usr/local/google/home/crosenblatt/workspace/ATV-v2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 659
+                },
+                "from": {
+                    "file": "/usr/local/google/home/crosenblatt/.android/build-cache/1f38f25e77c206454ad661389f471abe03499c7e/output/res/values-v19/values-v19.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 10,
+                        "endColumn": 12,
+                        "endOffset": 659
+                    }
+                }
+            }
+        ]
+    }
+]
