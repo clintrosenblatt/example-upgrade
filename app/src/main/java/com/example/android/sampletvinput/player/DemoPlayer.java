@@ -19,13 +19,10 @@ package com.example.android.sampletvinput.player;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.media.MediaCodec;
-import android.media.MediaCodec.CryptoException;
 import android.media.PlaybackParams;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Handler;
-import android.os.Looper;
-import android.support.annotation.RequiresApi;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Surface;
@@ -40,8 +37,6 @@ import com.google.android.exoplayer2.RendererCapabilities;
 import com.google.android.exoplayer2.Timeline;
 import com.google.android.exoplayer2.audio.MediaCodecAudioRenderer;
 import com.google.android.exoplayer2.extractor.DefaultExtractorsFactory;
-import com.google.android.exoplayer2.mediacodec.MediaCodecRenderer;
-import com.google.android.exoplayer2.mediacodec.MediaCodecRenderer.DecoderInitializationException;
 import com.google.android.exoplayer2.mediacodec.MediaCodecSelector;
 import com.google.android.exoplayer2.metadata.Metadata;
 import com.google.android.exoplayer2.metadata.emsg.EventMessage;
@@ -73,12 +68,8 @@ import com.google.android.exoplayer2.util.Util;
 import com.google.android.exoplayer2.video.MediaCodecVideoRenderer;
 import com.google.android.exoplayer2.Format;
 import com.google.android.exoplayer2.Renderer;
-import com.google.android.exoplayer2.audio.AudioTrack;
-import com.google.android.exoplayer2.drm.DefaultDrmSessionManager;
-import com.google.android.exoplayer2.metadata.MetadataRenderer;
 import com.google.android.exoplayer2.metadata.id3.Id3Frame;
 import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.text.TextRenderer;
 import com.google.android.exoplayer2.upstream.BandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 
@@ -91,9 +82,7 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * A wrapper around {@link ExoPlayer} that provides a higher level interface. It can be prepared
- * with one of a number of {@link RendererBuilder} classes to suit different use cases (e.g. DASH,
- * SmoothStreaming and so on).
+ * A wrapper around {@link ExoPlayer} that provides a higher level interface.
  * <p/>
  * This code was originally taken from the ExoPlayer demo application.
  */
@@ -277,28 +266,6 @@ MappingTrackSelector.MappedTrackInfo mappedTrackInfo = trackSelector.getCurrentM
 
     }
 
-    /**
-     * Builds renderers for the player.
-     */
-    public interface RendererBuilder {
-        /**
-         * Builds renderers for playback.
-         *
-         * @param player The player for which renderers are being built. {@link
-         *               DemoPlayer#onRenderers} should be invoked once the renderers have been
-         *               built. If building fails, {@link DemoPlayer#onRenderersError} should be
-         *               invoked.
-         */
-        void buildRenderers(DemoPlayer player);
-
-        /**
-         * Cancels the current build operation, if there is one. Else does nothing.
-         * <p/>
-         * A canceled build operation must not invoke {@link DemoPlayer#onRenderers} or {@link
-         * DemoPlayer#onRenderersError} on the player, which may have been released.
-         */
-        void cancel();
-    }
 
     /**
      * A listener for core events.
@@ -310,56 +277,6 @@ MappingTrackSelector.MappedTrackInfo mappedTrackInfo = trackSelector.getCurrentM
 
         void onVideoSizeChanged(int width, int height, int unappliedRotationDegrees,
                 float pixelWidthHeightRatio);
-    }
-
-    /**
-     * A listener for internal errors.
-     * <p/>
-     * These errors are not visible to the user, and hence this listener is provided for
-     * informational purposes only. Note however that an internal error may cause a fatal error if
-     * the player fails to recover. If this happens, {@link Listener#onError(Exception)} will be
-     * invoked.
-     */
-    public interface InternalErrorListener {
-        void onRendererInitializationError(Exception e);
-
-        void onAudioTrackInitializationError(AudioTrack.InitializationException e);
-
-        void onAudioTrackWriteError(AudioTrack.WriteException e);
-
-        void onAudioTrackUnderrun(int bufferSize, long bufferSizeMs, long elapsedSinceLastFeedMs);
-
-        void onDecoderInitializationError(DecoderInitializationException e);
-
-        void onCryptoError(CryptoException e);
-
-        void onLoadError(int sourceId, IOException e);
-
-        void onDrmSessionManagerError(Exception e);
-    }
-
-    /**
-     * A listener for debugging information.
-     */
-    public interface InfoListener {
-        void onVideoFormatEnabled(Format format, int trigger, long mediaTimeMs);
-
-        void onAudioFormatEnabled(Format format, int trigger, long mediaTimeMs);
-
-        void onDroppedFrames(int count, long elapsed);
-
-        void onBandwidthSample(int elapsedMs, long bytes, long bitrateEstimate);
-
-        void onLoadStarted(int sourceId, long length, int type, int trigger, Format format,
-                long mediaStartTimeMs, long mediaEndTimeMs);
-
-        void onLoadCompleted(int sourceId, long bytesLoaded, int type, int trigger, Format format,
-                long mediaStartTimeMs, long mediaEndTimeMs, long elapsedRealtimeMs,
-                long loadDurationMs);
-
-        void onDecoderInitialized(String decoderName, long elapsedRealtimeMs,
-                long initializationDurationMs);
-
     }
 
     /**
@@ -419,8 +336,6 @@ MappingTrackSelector.MappedTrackInfo mappedTrackInfo = trackSelector.getCurrentM
 
     private CaptionListener captionListener;
     private Id3MetadataListener id3MetadataListener;
-    private InternalErrorListener internalErrorListener;
-    private InfoListener infoListener;
 
     private static final DefaultBandwidthMeter BANDWIDTH_METER = new DefaultBandwidthMeter();
     private EventLogger eventLogger;
@@ -463,12 +378,7 @@ MappingTrackSelector.MappedTrackInfo mappedTrackInfo = trackSelector.getCurrentM
         player.prepare(mediaSource, true, false);
 
         eventLogger = new EventLogger(trackSelector);
-        //player.addListener(eventLogger);
         player.addListener(this);
-
-        //player.setAudioDebugListener(eventLogger);
-        //player.setVideoDebugListener(eventLogger);
-        //player.setMetadataOutput(eventLogger);
 
         Log.d("DemoPlayer", "We just initialized the player");
         Log.d("DemoPlayer", "**************************");
@@ -479,7 +389,6 @@ MappingTrackSelector.MappedTrackInfo mappedTrackInfo = trackSelector.getCurrentM
         listeners = new CopyOnWriteArrayList<>();
         mTvPlayerCallbacks = new CopyOnWriteArrayList<>();
         lastReportedPlaybackState = STATE_IDLE;
-        rendererBuildingState = RENDERER_BUILDING_STATE_IDLE;
     }
 
     private MediaSource buildMediaSource(Uri uri, String overrideExtension) {
@@ -539,14 +448,6 @@ MappingTrackSelector.MappedTrackInfo mappedTrackInfo = trackSelector.getCurrentM
         mTvPlayerCallbacks.remove(callback);
     }
 
-    public void setInternalErrorListener(InternalErrorListener listener) {
-        internalErrorListener = listener;
-    }
-
-    public void setInfoListener(InfoListener listener) {
-        infoListener = listener;
-    }
-
     public void setCaptionListener(CaptionListener listener) {
         captionListener = listener;
     }
@@ -594,58 +495,12 @@ MappingTrackSelector.MappedTrackInfo mappedTrackInfo = trackSelector.getCurrentM
             player.stop();
         }
 
-        //rendererBuilder.cancel();
-
         videoFormat = null;
-        //videoRenderer = null;
+        videoRenderer = null;
         rendererBuildingState = RENDERER_BUILDING_STATE_BUILDING;
         maybeReportPlayerState();
     }
 
-    /**
-     * Invoked with the results from a {@link RendererBuilder}.
-     *
-     * @param renderers      Renderers indexed by {@link DemoPlayer} TYPE_* constants. An individual
-     *                       element may be null if there do not exist tracks of the corresponding
-     *                       type.
-     * @param bandwidthMeter Provides an estimate of the currently available bandwidth. May be
-     *                       null.
-     */
-  /* package */ void onRenderers(Renderer[] renderers, BandwidthMeter bandwidthMeter) {
-
-
-
-        for (int i = 0; i < RENDERER_COUNT; i++) {
-            if (renderers[i] == null) {
-                // Convert a null renderer to a dummy renderer.
-            }
-        }
-        // Complete preparation.
-        this.videoRenderer = renderers[TYPE_VIDEO];
-        this.audioRenderer = renderers[TYPE_AUDIO];
-
-        this.bandwidthMeter = bandwidthMeter;
-        pushSurface(false);
-
-        //player.prepare(renderers);
-
-        rendererBuildingState = RENDERER_BUILDING_STATE_BUILT;
-    }
-
-    /**
-     * Invoked if a {@link RendererBuilder} encounters an error.
-     *
-     * @param e Describes the error.
-     */
-  /* package */ void onRenderersError(Exception e) {
-        if (internalErrorListener != null) {
-            internalErrorListener.onRendererInitializationError(e);
-        }
-        for (Listener listener : listeners) {
-            listener.onError(e);
-        }
-        rendererBuildingState = RENDERER_BUILDING_STATE_IDLE;
-    }
 
     public void setPlayWhenReady(boolean playWhenReady) {
         player.setPlayWhenReady(playWhenReady);
@@ -716,7 +571,6 @@ MappingTrackSelector.MappedTrackInfo mappedTrackInfo = trackSelector.getCurrentM
     private void maybeReportPlayerState() {
         boolean playWhenReady = player.getPlayWhenReady();
         int playbackState = getPlaybackState();
-
 
         if (lastReportedPlayWhenReady != playWhenReady ||
                 lastReportedPlaybackState != playbackState) {

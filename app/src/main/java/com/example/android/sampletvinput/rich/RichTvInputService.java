@@ -163,8 +163,10 @@ public class RichTvInputService extends BaseTvInputService {
                 notifyVideoUnavailable(TvInputManager.VIDEO_UNAVAILABLE_REASON_TUNING);
                 return false;
             }
+
             createPlayer(program.getInternalProviderData().getVideoType(),
                     Uri.parse(program.getInternalProviderData().getVideoUrl()));
+
             if (startPosMs > 0) {
                 mPlayer.seekTo(startPosMs);
             }
@@ -214,8 +216,7 @@ public class RichTvInputService extends BaseTvInputService {
             Log.d("RichTvInputService", "Play the advertisement");
             Log.d("RichTvInputService","******************************");
 
-            createPlayer(TvContractUtils.SOURCE_TYPE_HTTP_PROGRESSIVE,
-                    Uri.parse(advertisement.getRequestUrl()));
+            createPlayer(TvContractUtils.SOURCE_TYPE_HTTP_PROGRESSIVE,Uri.parse(advertisement.getRequestUrl()));
         }
 
 
@@ -287,9 +288,17 @@ public class RichTvInputService extends BaseTvInputService {
                 return;
             }
 
+            Log.d(TAG,"notifyVideoAvailable() called");
+            Log.d(TAG,"playWhenReady:  " + playWhenReady);
+            Log.d(TAG,"playbackState:  " + playbackState);
+            Log.d(TAG,"ExoPlayer.STATE_READY:  " + ExoPlayer.STATE_READY);
+
+            notifyVideoAvailable();
+
+
+            Log.d(TAG,"******************************************");
+
             if (playWhenReady && playbackState == ExoPlayer.STATE_READY) {
-
-
                 notifyVideoAvailable();
             } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M &&
                     Math.abs(mPlayer.getPlaybackSpeed() - 1) < 0.1 &&
