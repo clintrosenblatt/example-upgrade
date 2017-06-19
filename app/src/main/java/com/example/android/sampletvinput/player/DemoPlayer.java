@@ -35,13 +35,26 @@ import com.google.android.exoplayer2.DefaultRenderersFactory;
 import com.google.android.exoplayer2.ExoPlaybackException;
 import com.google.android.exoplayer2.ExoPlayer;
 import com.google.android.exoplayer2.ExoPlayerFactory;
+import com.google.android.exoplayer2.PlaybackParameters;
+import com.google.android.exoplayer2.RendererCapabilities;
+import com.google.android.exoplayer2.Timeline;
 import com.google.android.exoplayer2.audio.MediaCodecAudioRenderer;
 import com.google.android.exoplayer2.extractor.DefaultExtractorsFactory;
 import com.google.android.exoplayer2.mediacodec.MediaCodecRenderer;
 import com.google.android.exoplayer2.mediacodec.MediaCodecRenderer.DecoderInitializationException;
 import com.google.android.exoplayer2.mediacodec.MediaCodecSelector;
+import com.google.android.exoplayer2.metadata.Metadata;
+import com.google.android.exoplayer2.metadata.emsg.EventMessage;
+import com.google.android.exoplayer2.metadata.id3.ApicFrame;
+import com.google.android.exoplayer2.metadata.id3.CommentFrame;
+import com.google.android.exoplayer2.metadata.id3.GeobFrame;
+import com.google.android.exoplayer2.metadata.id3.PrivFrame;
+import com.google.android.exoplayer2.metadata.id3.TextInformationFrame;
+import com.google.android.exoplayer2.metadata.id3.UrlLinkFrame;
 import com.google.android.exoplayer2.source.ExtractorMediaSource;
 import com.google.android.exoplayer2.source.MediaSource;
+import com.google.android.exoplayer2.source.TrackGroup;
+import com.google.android.exoplayer2.source.TrackGroupArray;
 import com.google.android.exoplayer2.source.dash.DashMediaSource;
 import com.google.android.exoplayer2.source.dash.DefaultDashChunkSource;
 import com.google.android.exoplayer2.source.hls.HlsMediaSource;
@@ -51,6 +64,7 @@ import com.google.android.exoplayer2.trackselection.AdaptiveTrackSelection;
 import com.google.android.exoplayer2.trackselection.DefaultTrackSelector;
 import com.google.android.exoplayer2.trackselection.MappingTrackSelector;
 import com.google.android.exoplayer2.trackselection.TrackSelection;
+import com.google.android.exoplayer2.trackselection.TrackSelectionArray;
 import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
@@ -83,7 +97,185 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * <p/>
  * This code was originally taken from the ExoPlayer demo application.
  */
-public class DemoPlayer implements TvPlayer {
+public class DemoPlayer implements ExoPlayer.EventListener,TvPlayer {
+
+
+    private void printMetadata(Metadata metadata, String prefix) {
+        for (int i = 0; i < metadata.length(); i++) {
+            Metadata.Entry entry = metadata.get(i);
+            if (entry instanceof TextInformationFrame) {
+                TextInformationFrame textInformationFrame = (TextInformationFrame) entry;
+                Log.d(TAG, prefix + String.format("%s: value=%s", textInformationFrame.id,
+                        textInformationFrame.value));
+            } else if (entry instanceof UrlLinkFrame) {
+                UrlLinkFrame urlLinkFrame = (UrlLinkFrame) entry;
+                Log.d(TAG, prefix + String.format("%s: url=%s", urlLinkFrame.id, urlLinkFrame.url));
+            } else if (entry instanceof PrivFrame) {
+                PrivFrame privFrame = (PrivFrame) entry;
+                Log.d(TAG, prefix + String.format("%s: owner=%s", privFrame.id, privFrame.owner));
+            } else if (entry instanceof GeobFrame) {
+                GeobFrame geobFrame = (GeobFrame) entry;
+                Log.d(TAG, prefix + String.format("%s: mimeType=%s, filename=%s, description=%s",
+                        geobFrame.id, geobFrame.mimeType, geobFrame.filename, geobFrame.description));
+            } else if (entry instanceof ApicFrame) {
+                ApicFrame apicFrame = (ApicFrame) entry;
+                Log.d(TAG, prefix + String.format("%s: mimeType=%s, description=%s",
+                        apicFrame.id, apicFrame.mimeType, apicFrame.description));
+            } else if (entry instanceof CommentFrame) {
+                CommentFrame commentFrame = (CommentFrame) entry;
+                Log.d(TAG, prefix + String.format("%s: language=%s, description=%s", commentFrame.id,
+                        commentFrame.language, commentFrame.description));
+            } else if (entry instanceof Id3Frame) {
+                Id3Frame id3Frame = (Id3Frame) entry;
+                Log.d(TAG, prefix + String.format("%s", id3Frame.id));
+            } else if (entry instanceof EventMessage) {
+                EventMessage eventMessage = (EventMessage) entry;
+                Log.d(TAG, prefix + String.format("EMSG: scheme=%s, id=%d, value=%s",
+                        eventMessage.schemeIdUri, eventMessage.id, eventMessage.value));
+            }
+        }
+    }
+
+    private static String getAdaptiveSupportString(int trackCount, int adaptiveSupport) {
+        if (trackCount < 2) {
+            return "N/A";
+        }
+        switch (adaptiveSupport) {
+            case RendererCapabilities.ADAPTIVE_SEAMLESS:
+                return "YES";
+            case RendererCapabilities.ADAPTIVE_NOT_SEAMLESS:
+                return "YES_NOT_SEAMLESS";
+            case RendererCapabilities.ADAPTIVE_NOT_SUPPORTED:
+                return "NO";
+            default:
+                return "?";
+        }
+    }
+
+    private static String getTrackStatusString(TrackSelection selection, TrackGroup group,
+                                               int trackIndex) {
+        return getTrackStatusString(selection != null && selection.getTrackGroup() == group
+                && selection.indexOf(trackIndex) != C.INDEX_UNSET);
+    }
+
+    private static String getFormatSupportString(int formatSupport) {
+        switch (formatSupport) {
+            case RendererCapabilities.FORMAT_HANDLED:
+                return "YES";
+            case RendererCapabilities.FORMAT_EXCEEDS_CAPABILITIES:
+                return "NO_EXCEEDS_CAPABILITIES";
+            case RendererCapabilities.FORMAT_UNSUPPORTED_SUBTYPE:
+                return "NO_UNSUPPORTED_TYPE";
+            case RendererCapabilities.FORMAT_UNSUPPORTED_TYPE:
+                return "NO";
+            default:
+                return "?";
+        }
+    }
+
+    private static String getTrackStatusString(boolean enabled) {
+        return enabled ? "[X]" : "[ ]";
+    }
+
+
+    @Override
+    public void onTimelineChanged(Timeline timeline, Object manifest) {
+
+    }
+
+    @Override
+    public void onTracksChanged(TrackGroupArray trackGroups, TrackSelectionArray trackSelections) {
+MappingTrackSelector.MappedTrackInfo mappedTrackInfo = trackSelector.getCurrentMappedTrackInfo();
+        if (mappedTrackInfo == null) {
+            Log.d(TAG, "Tracks []");
+            return;
+        }
+        Log.d(TAG, "Tracks [");
+        // Log tracks associated to renderers.
+        for (int rendererIndex = 0; rendererIndex < mappedTrackInfo.length; rendererIndex++) {
+            TrackGroupArray rendererTrackGroups = mappedTrackInfo.getTrackGroups(rendererIndex);
+            TrackSelection trackSelection = trackSelections.get(rendererIndex);
+            if (rendererTrackGroups.length > 0) {
+                Log.d(TAG, "  Renderer:" + rendererIndex + " [");
+                for (int groupIndex = 0; groupIndex < rendererTrackGroups.length; groupIndex++) {
+                    TrackGroup trackGroup = rendererTrackGroups.get(groupIndex);
+
+                    String adaptiveSupport = getAdaptiveSupportString(trackGroup.length,
+                            mappedTrackInfo.getAdaptiveSupport(rendererIndex, groupIndex, false));
+                    Log.d(TAG, "    Group:" + groupIndex + ", adaptive_supported=" + adaptiveSupport + " [");
+                    for (int trackIndex = 0; trackIndex < trackGroup.length; trackIndex++) {
+
+                        String status = getTrackStatusString(trackSelection, trackGroup, trackIndex);
+                        String formatSupport = getFormatSupportString(
+                                mappedTrackInfo.getTrackFormatSupport(rendererIndex, groupIndex, trackIndex));
+                        Log.d(TAG, "      " + status + " Track:" + trackIndex + ", "
+                                + Format.toLogString(trackGroup.getFormat(trackIndex))
+                                + ", supported=" + formatSupport);
+                    }
+                    Log.d(TAG, "    ]");
+                }
+
+                // Log metadata for at most one of the tracks selected for the renderer.
+                if (trackSelection != null) {
+                    for (int selectionIndex = 0; selectionIndex < trackSelection.length(); selectionIndex++) {
+                        Metadata metadata = trackSelection.getFormat(selectionIndex).metadata;
+                        if (metadata != null) {
+                            Log.d(TAG, "    Metadata [");
+                            printMetadata(metadata, "      ");
+                            Log.d(TAG, "    ]");
+                            break;
+                        }
+                    }
+                }
+                Log.d(TAG, "  ]");
+            }
+        }
+        // Log tracks not associated with a renderer.
+        TrackGroupArray unassociatedTrackGroups = mappedTrackInfo.getUnassociatedTrackGroups();
+        if (unassociatedTrackGroups.length > 0) {
+            Log.d(TAG, "  Renderer:None [");
+            for (int groupIndex = 0; groupIndex < unassociatedTrackGroups.length; groupIndex++) {
+                Log.d(TAG, "    Group:" + groupIndex + " [");
+                TrackGroup trackGroup = unassociatedTrackGroups.get(groupIndex);
+                for (int trackIndex = 0; trackIndex < trackGroup.length; trackIndex++) {
+                    String status = getTrackStatusString(false);
+                    String formatSupport = getFormatSupportString(
+                            RendererCapabilities.FORMAT_UNSUPPORTED_TYPE);
+                    Log.d(TAG, "      " + status + " Track:" + trackIndex + ", "
+                            + Format.toLogString(trackGroup.getFormat(trackIndex))
+                            + ", supported=" + formatSupport);
+                }
+                Log.d(TAG, "    ]");
+            }
+            Log.d(TAG, "  ]");
+        }
+        Log.d(TAG, "]");
+    }
+
+    @Override
+    public void onLoadingChanged(boolean isLoading) {
+
+    }
+
+    @Override
+    public void onPlayerStateChanged(boolean playWhenReady, int playbackState) {
+
+    }
+
+    @Override
+    public void onPlayerError(ExoPlaybackException error) {
+
+    }
+
+    @Override
+    public void onPositionDiscontinuity() {
+
+    }
+
+    @Override
+    public void onPlaybackParametersChanged(PlaybackParameters playbackParameters) {
+
+    }
 
     /**
      * Builds renderers for the player.
@@ -241,7 +433,7 @@ public class DemoPlayer implements TvPlayer {
 
     private PlaybackParams playbackParams;
 
-
+    private static final String TAG = "DemoPlayer";
 
     public DemoPlayer(Context context, int videoType, Uri uri){
         mContext = context;
@@ -267,17 +459,13 @@ public class DemoPlayer implements TvPlayer {
         // Create the player
         player = ExoPlayerFactory.newInstance(mRenderers,trackSelector);
 
-        //player = ExoPlayerFactory.newSimpleInstance(renderersFactory, trackSelector);
-
-        //player.clearVideoSurface();
-
         MediaSource mediaSource = buildMediaSource(uri, null);
-        //player.prepare(mediaSource, true, false);
-        player.prepare(mediaSource, false, false);
-
+        player.prepare(mediaSource, true, false);
 
         eventLogger = new EventLogger(trackSelector);
-        player.addListener(eventLogger);
+        //player.addListener(eventLogger);
+        player.addListener(this);
+
         //player.setAudioDebugListener(eventLogger);
         //player.setVideoDebugListener(eventLogger);
         //player.setMetadataOutput(eventLogger);
@@ -286,8 +474,6 @@ public class DemoPlayer implements TvPlayer {
         Log.d("DemoPlayer", "**************************");
 
         player.setPlayWhenReady(true);
-
-        //player.setVideoSurface(surface);
 
         mainHandler = new Handler();
         listeners = new CopyOnWriteArrayList<>();
@@ -411,7 +597,7 @@ public class DemoPlayer implements TvPlayer {
         //rendererBuilder.cancel();
 
         videoFormat = null;
-        videoRenderer = null;
+        //videoRenderer = null;
         rendererBuildingState = RENDERER_BUILDING_STATE_BUILDING;
         maybeReportPlayerState();
     }
@@ -530,6 +716,8 @@ public class DemoPlayer implements TvPlayer {
     private void maybeReportPlayerState() {
         boolean playWhenReady = player.getPlayWhenReady();
         int playbackState = getPlaybackState();
+
+
         if (lastReportedPlayWhenReady != playWhenReady ||
                 lastReportedPlaybackState != playbackState) {
             for (Listener listener : listeners) {
@@ -556,7 +744,6 @@ public class DemoPlayer implements TvPlayer {
         } else {
             player.sendMessages(new ExoPlayer.ExoPlayerMessage(videoRenderer, C.MSG_SET_SURFACE, surface));
         }
-
     }
 
 }
