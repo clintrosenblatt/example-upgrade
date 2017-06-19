@@ -496,7 +496,6 @@ MappingTrackSelector.MappedTrackInfo mappedTrackInfo = trackSelector.getCurrentM
         }
 
         videoFormat = null;
-        videoRenderer = null;
         rendererBuildingState = RENDERER_BUILDING_STATE_BUILDING;
         maybeReportPlayerState();
     }
